@@ -20,7 +20,7 @@ namespace Scrable
         {
             for (int i = 0; i < nombre; i++)
             {
-                Lettre lettre = sac.PiocherLettre();
+                Lettre? lettre = sac.PiocherLettre();
                 if (lettre != null)
                     LettresEnMain.Add(lettre);
             }
