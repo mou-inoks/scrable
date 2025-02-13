@@ -28,7 +28,7 @@ public class SacDeLettres
         }
     }
 
-    public Lettre PiocherLettre()
+    public Lettre? PiocherLettre()
     {
         if (lettres.Count == 0) return null;
         Random rnd = new Random();

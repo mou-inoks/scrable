@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Scrable")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c97ca365ab58e8a24c1604ffbd743e050fa7907d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+352d06318c3fa77cc39d9bca62555d21662ded05")]
 [assembly: System.Reflection.AssemblyProductAttribute("Scrable")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Scrable")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
