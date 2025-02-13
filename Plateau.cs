@@ -8,26 +8,50 @@ namespace Scrable
 {
     public class Plateau
     {
-        private Jeton[,] grille = new Jeton[15, 15];
+        private char[,] grille = new char[10, 10];
 
-        public bool PlacerJeton(Jeton jeton)
+        public Plateau()
         {
-            if (grille[jeton.X, jeton.Y] == null)
-            {
-                grille[jeton.X, jeton.Y] = jeton;
-                return true;
-            }
-            return false;
+            for (int i = 0; i < 10; i++)
+                for (int j = 0; j < 10; j++)
+                    grille[i, j] = '.';
         }
 
-        public int CalculerPointsMot(List<Jeton> mot)
+        public void Afficher()
         {
-            int total = 0;
-            foreach (var jeton in mot)
+            Console.WriteLine("\nPlateau actuel :");
+            for (int i = 0; i < 10; i++)
             {
-                total += jeton.Lettre.Valeur;
+                for (int j = 0; j < 10; j++)
+                    Console.Write($"{grille[i, j]} ");
+                Console.WriteLine();
             }
-            return total;
+        }
+
+        public bool PeutPlacerMot(int ligne, int colonne, string mot, char direction)
+        {
+            if (direction == 'H' && colonne + mot.Length > 10) return false;
+            if (direction == 'V' && ligne + mot.Length > 10) return false;
+
+            for (int i = 0; i < mot.Length; i++)
+            {
+                int x = ligne + (direction == 'V' ? i : 0);
+                int y = colonne + (direction == 'H' ? i : 0);
+                if (grille[x, y] != '.')
+                    return false;
+            }
+
+            return true;
+        }
+
+        public void PlacerMot(int ligne, int colonne, string mot, char direction)
+        {
+            for (int i = 0; i < mot.Length; i++)
+            {
+                int x = ligne + (direction == 'V' ? i : 0);
+                int y = colonne + (direction == 'H' ? i : 0);
+                grille[x, y] = mot[i];
+            }
         }
     }
 }

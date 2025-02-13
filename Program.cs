@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Scrable;
+
+Partie partie = new Partie();
+partie.AjouterJoueur("Salim");
+partie.AjouterJoueur("Mattis");
+
+partie.Demarrer();

@@ -1,0 +1,15 @@
+C:\Users\mou\source\repos\Scrable\Scrable\bin\Debug\net8.0\Scrable.exe
+C:\Users\mou\source\repos\Scrable\Scrable\bin\Debug\net8.0\Scrable.deps.json
+C:\Users\mou\source\repos\Scrable\Scrable\bin\Debug\net8.0\Scrable.runtimeconfig.json
+C:\Users\mou\source\repos\Scrable\Scrable\bin\Debug\net8.0\Scrable.dll
+C:\Users\mou\source\repos\Scrable\Scrable\bin\Debug\net8.0\Scrable.pdb
+C:\Users\mou\source\repos\Scrable\Scrable\obj\Debug\net8.0\Scrable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mou\source\repos\Scrable\Scrable\obj\Debug\net8.0\Scrable.AssemblyInfoInputs.cache
+C:\Users\mou\source\repos\Scrable\Scrable\obj\Debug\net8.0\Scrable.AssemblyInfo.cs
+C:\Users\mou\source\repos\Scrable\Scrable\obj\Debug\net8.0\Scrable.csproj.CoreCompileInputs.cache
+C:\Users\mou\source\repos\Scrable\Scrable\obj\Debug\net8.0\Scrable.sourcelink.json
+C:\Users\mou\source\repos\Scrable\Scrable\obj\Debug\net8.0\Scrable.dll
+C:\Users\mou\source\repos\Scrable\Scrable\obj\Debug\net8.0\refint\Scrable.dll
+C:\Users\mou\source\repos\Scrable\Scrable\obj\Debug\net8.0\Scrable.pdb
+C:\Users\mou\source\repos\Scrable\Scrable\obj\Debug\net8.0\Scrable.genruntimeconfig.cache
+C:\Users\mou\source\repos\Scrable\Scrable\obj\Debug\net8.0\ref\Scrable.dll

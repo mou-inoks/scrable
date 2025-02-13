@@ -26,9 +26,30 @@ namespace Scrable
             }
         }
 
+        public bool PossedeLettres(string mot)
+        {
+            List<char> copieLettres = LettresEnMain.Select(l => l.Caractere).ToList();
+            foreach (char c in mot)
+            {
+                if (!copieLettres.Remove(c))
+                    return false;
+            }
+            return true;
+        }
+
+        public void RetirerLettres(string mot)
+        {
+            foreach (char c in mot)
+            {
+                var lettre = LettresEnMain.FirstOrDefault(l => l.Caractere == c);
+                if (lettre != null)
+                    LettresEnMain.Remove(lettre);
+            }
+        }
+
         public void AfficherLettres()
         {
-            Console.Write($"{Nom} a les lettres suivantes: ");
+            Console.Write($"{Nom} a en main : ");
             foreach (var lettre in LettresEnMain)
             {
                 Console.Write($"{lettre.Caractere} ");
