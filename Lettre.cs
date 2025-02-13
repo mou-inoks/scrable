@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Scrable
 {
-    public class Lettre  
-{  
-    public char Caractere { get; set; }  
-    public int Valeur { get; set; }  
+    public class Lettre
+    {
+        public char Caractere { get; set; }
+        public int Valeur { get; set; }
 
-    public Lettre(char caractere, int valeur)  
-    {  
-        Caractere = caractere;  
-        Valeur = valeur;  
-    }  
-}
+        public Lettre(char caractere, int valeur)
+        {
+            Caractere = caractere;
+            Valeur = valeur;
+        }
+    }
 }
